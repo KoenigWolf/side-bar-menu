@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "esnext",  // 最新のECMAScript機能を使用
+    "baseUrl": "./",  // プロジェクトのベースURL
+    "paths": {
+      "@hooks/*": ["src/hooks/*"],  // hooksディレクトリのエイリアス
+      "@components/*": ["src/components/*"],  // componentsディレクトリのエイリアス
+      "@icons/*": ["src/icons/*"],  // iconsディレクトリのエイリアス
+      "@styles/*": ["src/app/*"]  // appディレクトリのエイリアス
+    }
+  },
+  "include": ["src/**/*"]  // srcディレクトリ内のすべてのファイルを含む
+}
